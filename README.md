@@ -20,4 +20,4 @@ This capstone project examines how economic security and wellbeing have shifted 
 3. **Investigate gender differences in pay, workload, and satisfaction** to explore whether women’s resilience masks structural inequalities.  
 4. **Propose evidence-informed policy solutions** such as improved leave policies, pay transparency, and measures to reduce financial and psychological strain to promote wellbeing and equity in the workplace.
 
-> **Note:** Due to time constraints, the current analysis focuses on income, wage gaps, and housing affordability. Future work will expand on RQ2 to explore financial pressures, mental health, job satisfaction, and gendered resilience in more depth.
+**Note:** Due to time constraints, the current analysis focuses on income, wage gaps, and housing affordability. Future work will expand on RQ2 to explore financial pressures, mental health, job satisfaction, and gendered resilience in more depth.
