@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #read the csv file
-raw_path = "data/statcan_income/1110000901_databaseLoadingData.csv"
+raw_path = "data/raw/2000-2023-income.csv"
 df = pd.read_csv(raw_path)
 
 print(df)
@@ -59,7 +59,7 @@ df_wide['ratio_dual_to_single_female'] = df_wide['median_emp_dual_earner'] / df_
 print(df_wide.describe())
 
 #save the cleaned data
-out_path = "data/processed/median_income_clean_2000_2019.csv"
+out_path = "data/processed/median_income_clean_2000_2023.csv"
 df_wide.to_csv(out_path, index=False)
 print("Saved cleaned file to:", out_path)
 
@@ -72,6 +72,6 @@ plt.plot(df_wide['year'], df_wide['median_emp_single_female'], marker='o', label
 plt.legend()
 plt.xlabel('Year')
 plt.ylabel('Income')
-plt.title('Median income trends (2000–2019)')
+plt.title('Median income trends (2000–2023)')
 plt.grid(True)
 plt.show()
