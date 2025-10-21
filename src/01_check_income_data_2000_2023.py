@@ -59,7 +59,7 @@ df_wide['ratio_dual_to_single_female'] = df_wide['median_emp_dual_earner'] / df_
 print(df_wide.describe())
 
 #save the cleaned data
-out_path = "data/processed/median_income_clean_2000_2023.csv"
+out_path = "data/processed/median-income-clean-2000-2023.csv"
 df_wide.to_csv(out_path, index=False)
 print("Saved cleaned file to:", out_path)
 
