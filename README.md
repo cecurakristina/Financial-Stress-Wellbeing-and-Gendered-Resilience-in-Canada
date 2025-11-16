@@ -37,7 +37,7 @@ The central question: Do two incomes today buy what one income used to?
 ---
 
 ## Repository Structure
-
+```
 └───canadian-housing-and-income-trends
     │   README.md
     │
@@ -78,7 +78,7 @@ The central question: Do two incomes today buy what one income used to?
             05_cpi_adjustment.py
             06_exploratory_analysis.ipynb
             07_prepare_powerbi_datasets.py
-
+```
 ---
 
 ## Project Deliverables
